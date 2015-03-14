@@ -37,6 +37,7 @@ end
 ```
 
 ## Usage with Refinements
+
 use the following in the gemfile:
 
 ```ruby
@@ -45,9 +46,11 @@ use the following in the gemfile:
 gem 'of', require: 'of/refinements'
 ```
 
+and then use the refinement:
+
 ```ruby
 class MyClass
-  use Of
+  using Of
 
   def 7_of_9
     7.of { 9 } # => [9, 9, 9, 9, 9, 9, 9, 9]
