@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jason@waldrip.net"]
 
   spec.summary       = %q{A simple gem to give you n number of objects.}
-  spec.description   = %q{A simple gem to give you n number of objects. Maybe the simplist gem ever...}
+  spec.description   = %q{A simple gem to give you n number of objects. Maybe the simplest gem ever...}
   spec.homepage      = "https://github.com/jwaldrip/of.git"
   spec.license       = "MIT"
 
