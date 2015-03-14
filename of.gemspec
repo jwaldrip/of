@@ -9,10 +9,6 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jason Waldrip"]
   spec.email         = ["jason@waldrip.net"]
 
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
-  end
-
   spec.summary       = %q{A simple gem to give you n number of objects.}
   spec.description   = %q{A simple gem to give you n number of objects. Maybe the simplist gem ever...}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
