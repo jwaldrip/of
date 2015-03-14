@@ -37,6 +37,14 @@ end
 ```
 
 ## Usage with Refinements
+use the following in the gemfile:
+
+```ruby
+# Gemfile
+# ...
+gem 'of', require: 'of/refinements'
+```
+
 ```ruby
 class MyClass
   use Of
