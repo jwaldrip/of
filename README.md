@@ -21,9 +21,18 @@ $ gem install of
 ```
 
 ## Basic Usage
+
+### Block Syntax
 ```ruby
 def 7_of_9
   7.of { 9 } # => [9, 9, 9, 9, 9, 9, 9, 9]
+end
+```
+
+### Class Syntax
+```ruby
+def 3_objects
+  3.of(Object) # => [#<Object:0x007fb0db8b75c0>, #<Object:0x007fb0db8b7548>, #<Object:0x007fb0db8b74f8>]
 end
 ```
 
